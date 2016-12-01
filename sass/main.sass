@@ -1,0 +1,576 @@
+
+@import "multiaccordion"
+$main : #00AC00
+$bgc-menu: #3c3c3c
+html
+	overflow-x: hidden
+body
+	font-family: MyiradPro-Cond, sans-serif
+	font-weight: normal
+	font-size: 14px
+	min-width: 320px
+	position: relative
+	line-height: 1.6
+	-webkit-font-smoothing: antialiased
+	overflow-x: hidden
+	background-image: url("../img/star.jpg")
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: red
+body input:required:valid,
+body textarea:required:valid
+	color: green
+
+li 
+	list-style-type: none //Убираем маркеры
+ul 
+	margin-left: 0  //Отступ слева в браузере IE и Opera
+	padding-left: 0 // Отступ слева в браузере Firefox, Safari, Chrome
+
+
+.white
+	background-color: #fafafa
+
+.header_homepage
+	.headerbg
+		background-image: url("../img/main1.png")
+		background-position: center
+		background-repeat: no-repeat
+		
+		.headerinfo
+			padding-top: 222px
+			font-weight: bold
+			&_address
+				padding-left: 30px
+				padding-top: 15px
+				a
+					text-decoration: none
+				h3
+					margin-bottom: 0
+					font-size: 21px
+					color: #00ACE5
+					font-family: Arial!important
+					position: relative
+					left: 10px
+				p
+					font-size: 13px
+					color: #FF0088
+					margin: 0
+					font-style: italic
+				.order
+					height: 65px
+					cursor: pointer
+			&_mail
+				color: #92258C
+				font-size: 1.43em
+				cursor: pointer
+				position: relative
+				top: -15px
+				left: 32px
+			&_phone
+				position: relative
+				top: -20px
+				.phone_call
+					background-image: url("../img/top_phone.png")
+					background-size:container
+					width: 55px
+					height: 75px
+					background-size: cover
+	// ТОП МЕНЮ
+	.top_mnu
+
+		ul.nav li.dropdown:hover ul.dropdown-menu
+			display: block
+			margin: 0
+
+ 
+		a.menu:after, .dropdown-toggle:after 
+			content: none
+		//Конец выпадение при наведении
+		
+		.navbar
+			background-image: url("../img/main_mnu_bg.png")
+			border-radius: 0px
+			li a
+				padding: 7.5px 4px
+				&:hover 
+					background-color: transparent
+				&:focus
+					background-color: transparent
+			.open
+				.dropdown-menu
+					display: none
+				a
+					background-color: transparent
+			.dropdown
+				img
+					height: 60px
+				li a
+					padding: 4px 10px
+				.dropdown-menu
+					min-width: 180px
+					li a
+						&:hover
+							background-color: rgba(0,0,0,0.1)
+
+		// END HEADER
+
+.homepage_content
+	.hero_carusel
+		.carousel
+			border: 2px solid #A0004A
+			margin-bottom: 20px
+			.item
+				height: 300px
+				img
+					width: 100%
+					height: 100%
+			.carousel-control
+				top: 40%
+				width: 50px
+				height: 50px
+				border-radius: 50%
+				margin: 0 10px
+				background-color: rgba(0,0,0,.8)
+				-webkit-transition: 0.3s
+				-moz-transition: 0.3s
+				-ms-transition: 0.3s
+				-o-transition: 0.3s
+				transition: 0.3s
+				
+				&:hover
+					background-color: rgba(0,0,0,.8)
+				.glyphicon-chevron-right
+					top: 40%
+					left: 20%
+				.glyphicon-chevron-left
+					top: 40%
+					left: 40%
+				// End Carusel
+		//Homepage_info + sidebar
+	.homepage_info
+		padding-bottom: 20px
+		.MainMenu
+			ul
+				margin: 0
+			.panel 
+				border: none
+				box-shadow: none
+			.list-group
+				text-transform: uppercase
+				a
+					font-size: 20px
+					color: #fafafa
+					font-weight: bold
+					font-stretch: condensed
+					text-align: center
+					text-shadow: 1px 1px 1px rgba(0,0,0,0.7)
+			
+				.list-group-item
+					background-image: url("../img/sidebar-btn.png")
+					background-size: cover
+					background-color: transparent
+					background-repeat: no-repeat
+					border: none
+					margin-bottom: 3px
+					margin-right: 12px
+					padding: 6px 0px
+					border-radius: 13px
+				.sub
+					background-image: url("../img/sidebar-sub.png")
+					background-size: cover
+					background-repeat: no-repeat
+					padding: 3px 0px
+					margin-right: 12px
+					margin-bottom: 2px
+					font-size: 18px
+					border-radius: 13px
+			//End Sidebar
+		.MainInfo
+			padding-right: 30px
+			.title
+				color: #FF7000
+				margin: 0px
+				font-weight: bold
+				text-transform: uppercase
+				font-size: 36px
+				font-stretch: condensed
+			.descr
+				color: #00659B
+			
+			//INFO CARUSEL
+			.mini_carusel
+				.r
+					padding-right: 0px
+				.l
+					padding-left: 0
+				.mini_carusel_item
+					border: 1px solid #FF7000
+					padding-bottom: 15px
+					margin: 10px 0
+					.carousel-indicators 
+						bottom: -40%
+						.active
+							width: 10px
+							height: 10px
+						li
+							background-color: #ADACA6
+							border: none
+							width: 8px
+							height: 8px
+						
+					.carousel-inner
+						height: 150px
+						.item
+							img
+								max-height: 100%
+								max-width: 100%
+					.carusel_descr
+						background-image: url("../img/mini-carus.png")
+						background-position: center
+						padding: 5px 0
+						text-align: center
+						text-transform: uppercase
+						color: #fafafa
+						h3
+							font-weight: bold
+							margin: 0
+							font-stretch: condensed
+							font-size: 20px
+				//END INFO CARUSEL
+			.bot_descr
+				color: #FF7000
+				.bot_title
+					font-stretch: condensed
+					font-weight: bold
+					font-size: 19px
+				.stars
+					font-stretch: condensed
+					font-size: 16px
+					padding-left: 30px
+					&:before
+						content: ""
+						display: block
+						position: absolute
+						width: 3%
+						height: 4%
+						left: 15px
+						background-image: url(../img/stars.png)
+						background-repeat: no-repeat
+						background-size: 15px 15px
+						background-position: center center
+			//End Home Info + Sidebar
+		
+	//Start Преимущества
+	.advatages
+		.advatages_title
+			padding: 15px 0
+			text-align: center
+			background-image: url(../img/advantages.png)
+			color: #fafafa
+			font-size: 32px
+			text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7)
+			h2
+				font-weight: bold
+				margin: 0px
+		.advatages_line
+			padding-top: 20px
+			text-align: center
+			.advatages_item
+				display: inline-block
+				width: 16%
+				margin-right: 4%
+				.item_img
+					width: 100%
+				.item_descr
+					font-stretch: condensed
+					text-align: center
+					text-transform: uppercase
+					font-size: 15px
+					font-weight: bold
+					color: #00448C
+					line-height: 20px
+					margin-top: 10px
+			.last
+				margin-right: 0
+		.advatages_end_line
+			background-image: url("../img/advatages_end.png")
+			height: 5px
+			background-size: contain
+			background-position: center
+
+	//End Преимущества
+	
+	//Start Праздники
+	.holidays
+		.title
+			text-align: center
+			color: #FF7000
+			font-stretch: condensed
+			font-weight: bold
+			font-size: 31px
+		.descr
+			text-align: center
+			color: #003581
+			font-size: 16px
+			font-stretch: condensed
+			font-weight: bold
+		.holidays_type
+			text-align: center
+			.type_ittem
+				display: inline-block
+				color: #C2009E
+				font-size: 18px
+				font-stretch: condensed
+				font-weight: bold
+				text-transform: uppercase
+				padding: 20px 8px 20px 37px
+				margin: 0
+				background-position: 0 50%
+				background-repeat: no-repeat
+				background-size: 35px 40px
+			.dr
+				background-image: url("../img/holidaydr.png")
+			.ng
+				background-image: url("../img/holidayng.png")
+			.vipysk
+				background-image: url("../img/holidayvipysk.png")
+			.tem
+				background-image: url("../img/holidaytem.png")
+				padding-right: 0px
+		.holidays_content
+			padding: 20px 0
+			.info
+				color: #FF7000
+				font-size: 15px
+
+		//Праздники карусель
+		.holidays_carusel
+			.carousel
+				.carousel-inner				
+					.item
+						text-align: center
+						.single_img
+							display: inline-block
+							width: 33%
+							height: 250px
+							border: 2px solid #C2009E
+							img
+								width: 100%
+								height: 100%
+								
+					.carousel-control
+						opacity: 1
+						background-image: none
+						.glyphicon-chevron-left
+							left: 20%
+							color: #fafafa
+						.glyphicon-chevron-right
+							right: 20%
+							color: #fafafa
+		// Конец Праздники карусель
+
+		// Праздники Видео
+		.holiday_video
+			margin-top: 10px
+			margin-bottom: 20px
+			text-align: center
+			.video_item
+				border: 2px solid #C2009E
+				display: inline-block
+				width: 33%
+				height: 250px
+				iframe
+					width: 100%
+					height: 100%
+	//End Праздники
+	
+	//Start Отзывы
+	.reviews
+		margin-bottom: 20px
+		.reviews_title
+			padding: 15px 0
+			text-align: center
+			background-image: url(../img/reviews_line.png)
+			background-size: cover
+			background-position: center
+			color: #004B91
+			font-size: 32px
+			text-transform: uppercase
+			font-stretch: condensed
+			h2	
+				margin: 0px
+				font-weight: bold
+		.reviews_item
+			margin-top: 10px
+			padding-top: 10px
+			padding-left: 110px
+			background-position: 0 50%
+			background-repeat: no-repeat
+			background-size: 100px 100px
+			background-image: url("../img/reviews.png")
+			.text
+				color: #CD20A6
+				font-size: 17px
+				font-stretch: condensed
+			.name
+				text-align: right
+				color: #003889
+				font-size: 18px
+				font-stretch: condensed
+				font-weight: bold
+	//End Отзывы
+
+	//Start Партнеры
+	.partners
+		.partners_title
+			padding: 10px 0
+			text-align: center
+			color: #FF6D00
+			font-size: 32px
+			text-transform: uppercase
+			font-stretch: condensed
+			border-bottom: 4px solid #FF6D00
+			border-top: 4px solid #FF6D00
+			h2	
+				margin: 0px
+				font-weight: bold
+		.partner_logo
+			text-align: center
+			.partner_logo_item
+				max-height: 100px
+				width: auto
+				margin: 15px 8px
+	//End Партнеры
+
+// Footer
+.homepage_footer
+	background-image: url(../img/footer_line.png)
+	background-size: cover
+	padding-top: 20px
+	.footer_item
+		padding: 20px 0px 10px 0px
+		font-size: 21px
+		color: #fafafa
+		font-stretch: condensed
+		p
+			margin-bottom: 0px
+	.address
+		padding: 20px 0px 10px 60px
+		background-position: 0 50%
+		background-repeat: no-repeat
+		background-size: 50px 80px
+		background-image: url("../img/address_icon.png")
+	.center
+		text-align: center
+	.phone
+		padding: 20px 0px 10px 90px
+		background-position: 0 50%
+		background-repeat: no-repeat
+		background-size: 80px 80px
+		background-image: url("../img/phone_icon.png")
+
+//mobile MNU
+.main-mobile-menu
+	position: fixed
+	top: 0
+	left: 0
+	width: 100%
+	text-align: left
+	height: 40px
+	z-index: 99
+	background-color: #2c2c2c
+
+.toggle-mnu 
+	display: block
+	margin-top: 6px
+	width: 28px
+	height: 28px
+	background-image: url("../img/open-btn.png")
+	background-repeat: no-repeat
+	background-size: cover
+	background-position: center center
+	position: absolute
+	top: 0
+	left: 25px
+	z-index: 10
+	transition: all 0.3s ease
+	&:hover
+		opacity: 0.7
+		outline: none
+		border: none
+
+.sidr
+	font-size: 15px
+	.category_title
+		text-align: center
+		font-size: 18px
+		font-weight: bold
+	.button-close
+		display: inline-block
+		width: 20px
+		height: 20px
+		background-image: url("../img/close-btn.png")
+		background-size: contain
+		background-repeat: no-repeat
+		margin: 10px
+		margin-left: 220px
+		margin-top: 15px
+		transition: all 0.3s ease
+		&:hover
+			opacity: 0.8
+	.mm-item
+		font-size: 1em
+		height: 100%
+		padding-left: 0
+		.header-submenu-item
+			padding: 6px 0
+			padding-left: 30px
+			line-height: 1.4
+			font-size: 13px
+			background-color: lighten($bgc-menu, 5%)
+			color: #fff
+		.header-menu-item
+			text-transform: uppercase
+			font-size: 14px
+			line-height: 1.4
+			padding-top: 6px
+			padding-bottom: 6px
+			font-family: "RobotoBold", sans-serif
+			display: block
+			background-color: $bgc-menu
+			color: #fff
+			padding-left: 25px
+			border-top: 1px solid #5a5a5a
+			transition: all 0.3s ease
+			&:hover
+				color: $main
+		li
+			text-transform: lowercase
+			span
+				display: inline
+				padding: 0
+			&.active,
+			&:hover
+				line-height: 1.4
+				border-top: 1px solid transparent
+			a
+				line-height: 1.4
+				padding-left: 40px
+				padding-top: 6px
+				padding-bottom: 6px
+				color: $main
+			ol
+				background-color: darken(#f8f8f8, 1%)
+				li
+					line-height: 1.4
+					text-transform: none
+					&:hover
+						line-height: 1.4
+						border-top: 1px solid transparent
+					a
+						padding-top: 10px
+						padding-bottom: 10px
+						color: $main
+						font-size: 14

@@ -1,0 +1,53 @@
+.u-vmenu
+	> ul
+		display: block
+		border: 1px solid #d1d1d1
+		background-color: #fff
+		border-top: none
+		border-radius: 0 0 3px 3px
+		padding: 0
+		margin: 0
+		padding-top: 10px
+	ul
+		padding: 0
+		li
+			width: 100%
+			list-style: none
+		ul
+			display: none
+		li a
+			height: 30px
+			line-height: 30px
+			display: block
+			font-size: 14px
+			color: #616260
+			text-decoration: none
+			padding-left: 20px
+			outline: none
+			&[data-option='on']
+				background: url(../libs/multilevelAccordion/images/vmenu/off.png) right center no-repeat
+				background-color: #f0f0f0
+			&[data-option='off']
+				background: url(../libs/multilevelAccordion/images/vmenu/on.png) right center no-repeat
+	> ul 
+		> li
+			// background: url(../libs/multilevelAccordion/images/vmenu/zakladka.png) left top no-repeat
+			// background-size: 100% auto
+	> ul 
+		> li 
+			> a
+				height: 42px
+				line-height: 42px
+				padding-left: 20px
+		ul 
+			> li
+				> a
+					padding-left: 30px
+			ul 
+				> li
+					> a
+						padding-left: 40px
+				ul 
+					> li 
+						> a
+							padding-left: 50px

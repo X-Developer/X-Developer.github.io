@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "RobotoRegular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/RobotoRegular/RobotoRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoRegular/RobotoRegular.woff") format("woff"), url("../fonts/RobotoRegular/RobotoRegular.ttf") format("truetype"); }
+@font-face {
+    font-family: "MyiradPro-Cond"; /* имя шрифта для CSS правил */
+    src: local("MyiradPro"),
+     url(../fonts/MyiradPro/MyriadPro-Cond.otf); /* если шрифт не установлен, тогда загружаем его по указанному пути */
+  }
+@font-face {
+    font-family: "MyiradPro"; /* имя шрифта для CSS правил */
+    src: local("MyiradPro"),
+     url(../fonts/MyiradPro/MyriadPro-Regular.otf); /* если шрифт не установлен, тогда загружаем его по указанному пути */
+  }
+/*# sourceMappingURL=fonts.css.map */

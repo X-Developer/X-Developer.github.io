@@ -1,0 +1,195 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.hidden-sm{
+		display: none;}
+	.homepage_content .homepage_info .MainInfo .mini_carusel .r {
+    	float: none;
+    	margin: 0 auto;
+    	clear: both;}
+    .homepage_content .holidays .holidays_type .type_ittem {
+    	font-size: 12px;}
+    .homepage_content .holidays .holidays_carusel .carousel .carousel-inner .item .single_img {
+		width: 32%;}
+	.homepage_content .holidays .holiday_video .video_item {
+		width: 32%;}
+	.header_homepage{
+		margin-top: 40px
+	}
+	.white{
+		padding-top: 0px
+	}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+	.homepage_content .hero_carusel .carousel .item {
+    	height: 230px;}
+	.homepage_content .hero_carusel .carousel .carousel-control .glyphicon-chevron-left {
+    	top: 50%;
+    	left: 50%;}
+	.homepage_content .hero_carusel .carousel .carousel-control .glyphicon-chevron-right {
+    	top: 50%;
+    	left: 30%;}
+	.homepage_content .homepage_info .MainInfo {
+    	padding-right: 0px;}
+    .homepage_content .homepage_info .MainMenu .list-group .list-group-item {
+    	margin: 3px 12%;}
+    .homepage_content .homepage_info .MainMenu .list-group a{
+    	font-size: 20px}
+    .homepage_content .homepage_info .MainInfo .title {
+    	font-size: 25px;
+    	text-align: center;}
+	.homepage_content .advatages .advatages_line .advatages_item {
+    	width: 25%;
+   	 	padding-top: 10px;}
+	.homepage_content .holidays .holidays_carusel .carousel .carousel-inner .item .single_img{
+		height: 180px;}
+	.homepage_content .holidays .holiday_video .video_item {
+		height: 120px;}
+	.homepage_footer .footer_item {
+		text-align: center;}
+	.homepage_footer .address {
+		margin-top: 20px;
+		background-position: 20% 50%;}
+	.homepage_footer .phone {
+    	background-position: 20% 50%;}
+
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.homepage_content .hero_carusel .carousel .item {
+    	height: 150px;}
+	.homepage_content .advatages .advatages_line .advatages_item .item_descr {
+		font-size: 13px}
+	.homepage_content .advatages .advatages_line .advatages_item{
+		width: 35%;}
+	.homepage_content .holidays .holidays_type .type_ittem {
+    	font-size: 13px;}
+    .homepage_content .holidays .holiday_video .video_item {
+	    height: 150px;
+		width: 100%;}
+	.homepage_content .reviews .reviews_item .text {
+    	font-size: 15px;}
+	.homepage_footer .address {
+		background-position: 10% 50%;}
+	.homepage_footer .phone {
+    	background-position: 10% 50%;}
+	.homepage_content .homepage_info .MainInfo .bot_descr .stars:before {
+   		content: "";
+    	display: block;
+    	width: 5%;
+    	height: 2%;}
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	.homepage_footer .address {
+		background-position: 0% 50%;}
+	.homepage_footer .phone {
+    	background-position: 0% 50%;}
+    .homepage_content .reviews .reviews_item .text {
+    	font-size: 14px;}
+	.homepage_content .reviews .reviews_item .name {
+		font-size: 16px;}
+	.homepage_content .reviews .reviews_item {
+		background-size: 85px 90px;
+	    padding-left: 95px}
+
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+		.container{
+		max-width: 990px
+	}
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+
+
+
+
+.multi-item-carousel .carousel-inner > .item {
+  -webkit-transition: 500ms ease-in-out left;
+  transition: 500ms ease-in-out left;
+}
+.multi-item-carousel .carousel-inner .active.left {
+  left: -33%;
+}
+.multi-item-carousel .carousel-inner .active.right {
+  left: 33%;
+}
+.multi-item-carousel .carousel-inner .next {
+  left: 33%;
+}
+.multi-item-carousel .carousel-inner .prev {
+  left: -33%;
+}
+@media all and (transform-3d), (-webkit-transform-3d) {
+  .multi-item-carousel .carousel-inner > .item {
+    -webkit-transition: 500ms ease-in-out all;
+    transition: 500ms ease-in-out all;
+    -webkit-backface-visibility: visible;
+            backface-visibility: visible;
+    -webkit-transform: none!important;
+            transform: none!important;
+  }
+}
+.multi-item-carousel .carouse-control.left,
+.multi-item-carousel .carouse-control.right {
+  background-image: none;
+}
