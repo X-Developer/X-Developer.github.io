@@ -110,6 +110,8 @@
     	display: block;
     	width: 5%;
     	height: 2%;}
+    .homepage_content .homepage_info .MainMenu .list-group .list-group-item {
+    	margin: 3px 0%;}
 
 }
 
