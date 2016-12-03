@@ -124,7 +124,7 @@
 	.homepage_content .holidays .holidays_type .type_ittem {
 	    font-size: 13px;
 	    display: block;
-	    width: 70%;
+	    width: 80%;
 	    margin: 0 auto;
 	    text-align: left;
 	    padding: 20px 8px 20px 50px;}
@@ -147,7 +147,8 @@
 		background-size: 85px 90px;
 	    padding-left: 95px}
 	.homepage_content .advatages .advatages_line .advatages_item .item_descr {
-    	font-size: 12px;}
+    	font-size: 10px;}
+
 
 }
 
