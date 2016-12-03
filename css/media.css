@@ -93,7 +93,7 @@
     .homepage_content .hero_carusel .carousel .carousel-control {
     	top: 25%;}
 	.homepage_content .advatages .advatages_line .advatages_item .item_descr {
-		font-size: 13px}
+		font-size: 12px}
 	.homepage_content .advatages .advatages_line .advatages_item{
 		width: 37%;}
 	.homepage_content .holidays .holidays_type .type_ittem {
@@ -147,8 +147,7 @@
 		background-size: 85px 90px;
 	    padding-left: 95px}
 	.homepage_content .advatages .advatages_line .advatages_item .item_descr {
-    	font-size: 10px;}
-
+    	font-size: 11px;}
 
 }
 
