@@ -89,15 +89,17 @@
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
 	.homepage_content .hero_carusel .carousel .item {
-    	height: 150px;}
+    	height: 120px;}
+    .homepage_content .hero_carusel .carousel .carousel-control {
+    	top: 25%;}
 	.homepage_content .advatages .advatages_line .advatages_item .item_descr {
 		font-size: 13px}
 	.homepage_content .advatages .advatages_line .advatages_item{
-		width: 35%;}
+		width: 37%;}
 	.homepage_content .holidays .holidays_type .type_ittem {
     	font-size: 13px;}
     .homepage_content .holidays .holiday_video .video_item {
-	    height: 150px;
+	    height: 140px;
 		width: 100%;}
 	.homepage_content .reviews .reviews_item .text {
     	font-size: 15px;}
@@ -112,7 +114,17 @@
     	height: 2%;}
     .homepage_content .homepage_info .MainMenu .list-group .list-group-item {
     	margin: 3px 0%;}
+    .MainInfo .mini_carusel .l, .r {
+		padding-left: 3px !important;
+    	padding-right: 3px !important;}
+    .homepage_content .holidays .holidays_carusel .carousel .carousel-inner .item .single_img {
+    	height: 130px;}
+	.homepage_footer .address {
+    background-size: 60px 80px;}
 
+
+
+    
 }
 
 /* Custom, iPhone Retina */
@@ -128,7 +140,16 @@
 	.homepage_content .reviews .reviews_item {
 		background-size: 85px 90px;
 	    padding-left: 95px}
-
+	.homepage_content .advatages .advatages_line .advatages_item .item_descr {
+    	font-size: 12px;}
+    .homepage_content .holidays .holidays_type .type_ittem {
+    font-size: 13px;
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px 8px 20px 50px;
+}
 
 }
 
