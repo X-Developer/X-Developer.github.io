@@ -1,12 +1,13 @@
 /*==========  Desktop First Method  ==========*/
 
 /* Large Devices, Wide Screens */
-@media only screen and (max-width : 1200px) {
-
+@media only screen and (max-width : 9999px) {
+	.container{max-width: 990px;}
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
+	.container{max-width: 990px;}
 	.header_homepage .headerbg {
     	background-image: none;
     	min-height: 0px;}
@@ -196,7 +197,7 @@
     .header_homepage .headerbg .headerinfo {
     	bottom: -128px;}
 	.header_homepage .headerbg .headerinfo .ph_numb .numb {
-    	font-size: 21px;
+    	font-size: 20px;
     	font-stretch: condensed;}
     .header_homepage .headerbg .headerinfo .ph_numb .viber:before {
     	margin-left: -45px;}
@@ -330,9 +331,7 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-		.container{
-		width: 990px
-	}
+	.container{width: 990px;}
 }
 
  /* Large Devices, Wide Screens */
