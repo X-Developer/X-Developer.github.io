@@ -74,30 +74,40 @@ ul {
 .header_homepage .headerbg {
   background-image: url("../img/main1.png");
   background-position: center;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  min-height: 320px; }
   .header_homepage .headerbg .headerinfo {
-    padding-top: 222px;
-    font-weight: bold; }
+    font-weight: bold;
+    position: relative;
+    bottom: -219px; }
     .header_homepage .headerbg .headerinfo_address {
       padding-left: 30px;
       padding-top: 15px; }
       .header_homepage .headerbg .headerinfo_address a {
         text-decoration: none; }
-      .header_homepage .headerbg .headerinfo_address h3 {
+      .header_homepage .headerbg .headerinfo_address .title {
         margin-bottom: 0;
         font-size: 21px;
         color: #00ACE5;
         font-family: Arial !important;
         position: relative;
         left: 10px; }
-      .header_homepage .headerbg .headerinfo_address p {
+      .header_homepage .headerbg .headerinfo_address .descr {
         font-size: 13px;
         color: #FF0088;
         margin: 0;
         font-style: italic; }
-      .header_homepage .headerbg .headerinfo_address .order {
-        height: 65px;
-        cursor: pointer; }
+    .header_homepage .headerbg .headerinfo .order {
+      height: 65px;
+      width: 261px;
+      cursor: pointer;
+      background-image: url("../img/order_but.png");
+      background-size: contain;
+      background-position: 0 50%;
+      background-repeat: no-repeat;
+      margin-left: 7px;
+      margin-right: 32px;
+      margin-top: 13px; }
     .header_homepage .headerbg .headerinfo_mail {
       color: #92258C;
       font-size: 1.43em;
@@ -109,10 +119,23 @@ ul {
       position: relative;
       top: -20px; }
       .header_homepage .headerbg .headerinfo_phone .phone_call {
-        background-image: url("../img/top_phone.png");
         width: 55px;
         height: 75px;
-        background-size: cover; }
+        position: relative;
+        right: 50px;
+        display: inline-block;
+        top: 5px; }
+        .header_homepage .headerbg .headerinfo_phone .phone_call img {
+          width: 100%; }
+    .header_homepage .headerbg .headerinfo .ph_numb {
+      display: inline-block;
+      position: relative;
+      bottom: 75px;
+      left: 18px; }
+      .header_homepage .headerbg .headerinfo .ph_numb .numb {
+        font-size: 25px;
+        margin: 0px;
+        color: #004D9F; }
 .header_homepage .top_mnu ul.nav li.dropdown:hover ul.dropdown-menu {
   display: block;
   margin: 0; }
@@ -122,7 +145,7 @@ ul {
   background-image: url("../img/main_mnu_bg.png");
   border-radius: 0px; }
   .header_homepage .top_mnu .navbar li a {
-    padding: 7.5px 4px; }
+    padding: 8px 4px; }
     .header_homepage .top_mnu .navbar li a:hover {
       background-color: transparent; }
     .header_homepage .top_mnu .navbar li a:focus {
@@ -214,10 +237,8 @@ ul {
       font-stretch: condensed; }
     .homepage_content .homepage_info .MainInfo .descr {
       color: #00659B; }
-    .homepage_content .homepage_info .MainInfo .mini_carusel .r {
-      padding-right: 0px; }
-    .homepage_content .homepage_info .MainInfo .mini_carusel .l {
-      padding-left: 0; }
+    .homepage_content .homepage_info .MainInfo .mini_carusel .r, .homepage_content .homepage_info .MainInfo .mini_carusel .l {
+      padding: 0 5px; }
     .homepage_content .homepage_info .MainInfo .mini_carusel .mini_carusel_item {
       border: 1px solid #FF7000;
       padding-bottom: 15px;
@@ -235,8 +256,8 @@ ul {
       .homepage_content .homepage_info .MainInfo .mini_carusel .mini_carusel_item .carousel-inner {
         height: 150px; }
         .homepage_content .homepage_info .MainInfo .mini_carusel .mini_carusel_item .carousel-inner .item img {
-          max-height: 100%;
-          max-width: 100%; }
+          height: 100%;
+          width: 100%; }
       .homepage_content .homepage_info .MainInfo .mini_carusel .mini_carusel_item .carusel_descr {
         background-image: url("../img/mini-carus.png");
         background-position: center;

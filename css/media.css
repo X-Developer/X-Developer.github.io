@@ -7,8 +7,53 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
+	.header_homepage .headerbg {
+    	background-image: none;
+    	min-height: 0px;}
+	.header_homepage .headerbg .bg_mobi{
+		background-image: url(../img/mobi_header.jpg);
+		height: 435px;
+    	background-size: cover;
+    	background-repeat: no-repeat;
+	}
+	.header_homepage .headerbg .headerinfo .order {
+    	background-image: none;
+		height: 75px;
+		width: 100%;}
+
+	.header_homepage .headerbg .headerinfo {
+    	bottom: -270px;}
+	.header_homepage .headerbg .headerinfo_phone {
+    	top: 0px;
+    	text-align: center;}	
+	.header_homepage .headerbg .headerinfo .ph_numb {
+    	bottom: -20px;
+    	left: 0px;}
+    .header_homepage .headerbg .headerinfo .ph_numb .numb {
+		display: inline-block;
+		padding-left: 70px;
+		font-size: 32px;}
+	.header_homepage .headerbg .headerinfo .ph_numb .phone:before {
+		content: "";
+		position: absolute;
+   		display: block;
+    	width: 55px;
+    	height: 60px;
+    	background: url(../img/mobi_phone.png) no-repeat;
+		background-size: contain;
+    	margin-left: -75px;}
+	.header_homepage .headerbg .headerinfo .ph_numb .viber:before {
+    	content: "";
+		position: absolute;
+   		display: block;
+    	width: 70px;
+    	height: 60px;
+    	background: url(../img/mobi_viber.png) no-repeat;
+		background-size: contain;	
+ 		margin-left: -65px;}
+	
 	.hidden-sm{
-		display: none;}
+		display: none !important;}
 	.homepage_content .homepage_info .MainInfo .mini_carusel .r {
     	float: none;
     	margin: 0 auto;
@@ -23,13 +68,15 @@
 		margin-top: 40px
 	}
 	.white{
-		padding-top: 0px
-	}
+		padding-top: 0px}
+	.homepage_footer .footer_item {
+    	font-size: 18px;}
 
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 767px) {
+
 	.homepage_content .hero_carusel .carousel .item {
     	height: 230px;}
 	.homepage_content .hero_carusel .carousel .carousel-control .glyphicon-chevron-left {
@@ -86,6 +133,119 @@
 
 }
 
+/* Headr */
+@media only screen and (max-width : 708px) {
+.header_homepage .headerbg .bg_mobi{
+		height: 375px;
+	}
+.header_homepage .headerbg .headerinfo {
+    bottom: -224px;}
+.header_homepage .headerbg .headerinfo_phone {
+    top: -8px;}
+.header_homepage .headerbg .headerinfo .ph_numb .numb {
+    padding-left: 60px;
+    font-size: 27px;
+    bottom: 30px;}
+.header_homepage .headerbg .headerinfo .ph_numb .phone:before {
+	margin-left: -60px;
+	width: 50px;
+}
+.header_homepage .headerbg .headerinfo .ph_numb .viber:before{
+	margin-left: -60px;
+	width: 63px;
+}
+
+
+@media only screen and (max-width : 606px) {
+	.header_homepage .headerbg .bg_mobi {
+    height: 310px;}
+    .header_homepage .headerbg .headerinfo {
+    bottom: -178px;}
+	.header_homepage .headerbg .headerinfo .ph_numb {
+    bottom: -15px;}
+	.header_homepage .headerbg .headerinfo .ph_numb .numb {
+    	padding-left: 50px;
+    	font-size: 20px;}
+    .header_homepage .headerbg .headerinfo .ph_numb .viber:before{
+		margin-left: -40px;
+		width: 47px;}
+	.header_homepage .headerbg .headerinfo .ph_numb .phone:before {
+		margin-left: -40px;
+		height: 35px;}
+}
+
+@media only screen and (max-width : 500px) {
+	.header_homepage .headerbg .bg_mobi {
+    	height: 250px;}
+    .header_homepage .headerbg .headerinfo {
+    	bottom: -140px;}
+    .header_homepage .headerbg .headerinfo .order{
+    	height: 55px;}
+    .header_homepage .headerbg .headerinfo .ph_numb .numb {
+    	padding-left: 40px;
+    	font-size: 19px;}
+}
+@media only screen and (max-width : 440px) {
+	.header_homepage .headerbg .headerinfo .ph_numb .numb {
+    	font-size: 17.5px;}
+}
+/*Iph 6+*/
+@media only screen and (max-width : 414px) {
+	.header_homepage .headerbg .bg_mobi {
+    	height: 240px;}
+    .header_homepage .headerbg .headerinfo {
+    	bottom: -128px;}
+	.header_homepage .headerbg .headerinfo .ph_numb .numb {
+    	font-size: 21px;
+    	font-stretch: condensed;}
+    .header_homepage .headerbg .headerinfo .ph_numb .viber:before {
+    	margin-left: -45px;}
+    .header_homepage .headerbg .headerinfo .ph_numb .numb {
+    	padding-left: 43px;}
+	
+}
+@media only screen and (max-width : 375px) {
+	.header_homepage .headerbg .bg_mobi {
+    	height: 220px;}
+	.header_homepage .headerbg .headerinfo .ph_numb .numb {
+   		font-size: 18px;}
+    .header_homepage .headerbg .headerinfo .ph_numb .viber:before {
+    	margin-left: -40px;
+    	width: 44px;}
+    .header_homepage .headerbg .headerinfo {
+    	bottom: -110px;}
+    .header_homepage .headerbg .headerinfo .ph_numb .phone:before {
+    	width: 28px;}
+    .header_homepage .headerbg .headerinfo .ph_numb .viber:before {
+    	width: 39px;}
+}
+@media only screen and (max-width : 373px) {
+	.header_homepage .headerbg .headerinfo .ph_numb .numb {
+   		font-size: 15px;}
+}
+@media only screen and (max-width : 320px) {
+	.header_homepage .headerbg .bg_mobi {
+    	height: 185px;}
+	.header_homepage .headerbg .headerinfo {
+    	bottom: -85px;}
+    .header_homepage .headerbg .headerinfo_phone {
+    	top: -13px;}
+    .header_homepage .headerbg .headerinfo .ph_numb .numb {
+    	padding-left: 36px;
+    	font-size: 16px}
+    .header_homepage .headerbg .headerinfo .ph_numb .phone{
+		padding-left: 20px}
+	.header_homepage .headerbg .headerinfo .ph_numb .phone:before {
+    	width: 25px;
+    	margin-left: -28px;}
+    .header_homepage .headerbg .headerinfo .ph_numb .viber:before {
+    	width: 36px;
+    	margin-left: -33px;}
+}
+/* Headr */
+
+
+
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
 	.homepage_content .hero_carusel .carousel .item {
@@ -118,7 +278,7 @@
 		padding-left: 3px !important;
     	padding-right: 3px !important;}
     .homepage_content .holidays .holidays_carusel .carousel .carousel-inner .item .single_img {
-    	height: 130px;}
+    	height: 110px;}
 	.homepage_footer .address {
     background-size: 60px 80px;}
 	.homepage_content .holidays .holidays_type .type_ittem {
@@ -148,7 +308,6 @@
 	    padding-left: 95px}
 	.homepage_content .advatages .advatages_line .advatages_item .item_descr {
     	font-size: 11px;}
-
 }
 
 
@@ -172,7 +331,7 @@
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
 		.container{
-		max-width: 990px
+		width: 990px
 	}
 }
 
