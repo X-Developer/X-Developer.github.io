@@ -203,13 +203,17 @@
     	margin-left: -45px;}
     .header_homepage .headerbg .headerinfo .ph_numb .numb {
     	padding-left: 43px;}
-	
 }
+@media only screen and (max-width : 413px) {
+	.header_homepage .headerbg .headerinfo .ph_numb .numb {
+    	font-size: 18px;
+}
+
 @media only screen and (max-width : 375px) {
 	.header_homepage .headerbg .bg_mobi {
-    	height: 220px;}
+    	height: 215px;}
 	.header_homepage .headerbg .headerinfo .ph_numb .numb {
-   		font-size: 18px;}
+   		font-size: 17px;}
     .header_homepage .headerbg .headerinfo .ph_numb .viber:before {
     	margin-left: -40px;
     	width: 44px;}
