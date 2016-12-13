@@ -204,7 +204,7 @@
     .header_homepage .headerbg .headerinfo .ph_numb .numb {
     	padding-left: 43px;}
 }
-@media only screen and (max-width : 413px) {
+@media only screen and (max-width : 410px) {
 	.header_homepage .headerbg .headerinfo .ph_numb .numb {
     	font-size: 17px;
 }
@@ -213,7 +213,7 @@
 	.header_homepage .headerbg .bg_mobi {
     	height: 215px;}
 	.header_homepage .headerbg .headerinfo .ph_numb .numb {
-   		font-size: 16px;}
+   		font-size: 12px;}
     .header_homepage .headerbg .headerinfo .ph_numb .viber:before {
     	margin-left: -40px;
     	width: 44px;}
