@@ -206,14 +206,14 @@
 }
 @media only screen and (max-width : 413px) {
 	.header_homepage .headerbg .headerinfo .ph_numb .numb {
-    	font-size: 18px;
+    	font-size: 17px;
 }
 
 @media only screen and (max-width : 375px) {
 	.header_homepage .headerbg .bg_mobi {
     	height: 215px;}
 	.header_homepage .headerbg .headerinfo .ph_numb .numb {
-   		font-size: 17px;}
+   		font-size: 16px;}
     .header_homepage .headerbg .headerinfo .ph_numb .viber:before {
     	margin-left: -40px;
     	width: 44px;}
@@ -226,7 +226,7 @@
 }
 @media only screen and (max-width : 373px) {
 	.header_homepage .headerbg .headerinfo .ph_numb .numb {
-   		font-size: 15px;}
+   		font-size: 14px;}
 }
 @media only screen and (max-width : 320px) {
 	.header_homepage .headerbg .bg_mobi {
@@ -237,7 +237,7 @@
     	top: -13px;}
     .header_homepage .headerbg .headerinfo .ph_numb .numb {
     	padding-left: 36px;
-    	font-size: 16px}
+    	font-size: 14px}
     .header_homepage .headerbg .headerinfo .ph_numb .phone{
 		padding-left: 20px}
 	.header_homepage .headerbg .headerinfo .ph_numb .phone:before {
