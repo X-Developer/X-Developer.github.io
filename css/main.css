@@ -443,10 +443,25 @@ ul {
     font-weight: bold; }
 .homepage_content .partners .partner_logo {
   text-align: center; }
-  .homepage_content .partners .partner_logo .partner_logo_item {
-    max-height: 100px;
-    width: auto;
-    margin: 15px 8px; }
+.homepage_content .partners .partners_carusel {
+  padding: 20px 0px; }
+  .homepage_content .partners .partners_carusel .carousel .carousel-inner .item {
+    height: 130px;
+    text-align: center; }
+    .homepage_content .partners .partners_carusel .carousel .carousel-inner .item .partner_logo_item {
+      display: inline-block;
+      max-height: 100px;
+      max-width: calc(20% - 30px);
+      margin: 15px 30px; }
+  .homepage_content .partners .partners_carusel .carousel .carousel-inner .carousel-control {
+    opacity: 1;
+    background-image: none; }
+    .homepage_content .partners .partners_carusel .carousel .carousel-inner .carousel-control .glyphicon-chevron-left {
+      left: 20%;
+      color: #fafafa; }
+    .homepage_content .partners .partners_carusel .carousel .carousel-inner .carousel-control .glyphicon-chevron-right {
+      right: 20%;
+      color: #fafafa; }
 
 .homepage_footer {
   background-image: url(../img/footer_line.png);

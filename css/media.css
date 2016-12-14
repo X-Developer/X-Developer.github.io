@@ -63,8 +63,6 @@
     	font-size: 12px;}
     .homepage_content .holidays .holidays_carusel .carousel .carousel-inner .item .single_img {
 		width: 32%;}
-	.homepage_content .holidays .holiday_video .video_item {
-		width: 32%;}
 	.header_homepage{
 		margin-top: 40px
 	}
@@ -109,6 +107,9 @@
 		background-position: 20% 50%;}
 	.homepage_footer .phone {
     	background-position: 20% 50%;}
+    .homepage_content .partners .partners_carusel .carousel .carousel-inner .item .partner_logo_item {
+    	max-width: calc(20% - 10px);
+    	margin: 15px 10px;}
 
 	/*Disable Animation on Mobile Devices*/
 	.animated {
@@ -203,6 +204,10 @@
     	margin-left: -45px;}
     .header_homepage .headerbg .headerinfo .ph_numb .numb {
     	padding-left: 43px;}
+    .homepage_content .partners .partners_carusel .carousel .carousel-inner .item {
+		height: 235px;}
+	.homepage_content .partners .partners_carusel .carousel .carousel-inner .item .partner_logo_item {
+    	max-width: calc(35% - 10px);}
 }
 @media only screen and (max-width : 410px) {
 	.header_homepage .headerbg .headerinfo .ph_numb .numb {
@@ -213,7 +218,7 @@
 	.header_homepage .headerbg .bg_mobi {
     	height: 215px;}
 	.header_homepage .headerbg .headerinfo .ph_numb .numb {
-   		font-size: 12px;}
+   		font-size: 14px;}
     .header_homepage .headerbg .headerinfo .ph_numb .viber:before {
     	margin-left: -40px;
     	width: 44px;}
@@ -294,8 +299,13 @@
 	    text-align: left;
 	    padding: 20px 8px 20px 50px;}
 
-
-    
+	.homepage_content .partners .partners_carusel .carousel .carousel-inner .item {
+		height: 235px;}
+	.homepage_content .partners .partners_carusel .carousel .carousel-inner .item .partner_logo_item {
+    	max-width: calc(35% - 10px);}
+    .homepage_content .partners .partners_carusel .carousel .carousel-inner .item .partner_logo_item {
+    	display: inline-block;
+    	max-height: 85px;}
 }
 
 /* Custom, iPhone Retina */
