@@ -225,10 +225,16 @@
     .header_homepage .headerbg .headerinfo {
     	bottom: -110px;}
     .header_homepage .headerbg .headerinfo .ph_numb .phone:before {
-    	width: 28px;}
+    	width: 24px;
+    	margin-left: -30px}
     .header_homepage .headerbg .headerinfo .ph_numb .viber:before {
-    	width: 39px;}
+    	width: 33px;
+    	margin-left: -33px;}
+    .header_homepage .headerbg .headerinfo .ph_numb .numb {
+    	padding-left: 35px;}
 }
+
+
 @media only screen and (max-width : 373px) {
 	.header_homepage .headerbg .headerinfo .ph_numb .numb {
    		font-size: 14px;}
