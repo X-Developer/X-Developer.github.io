@@ -239,6 +239,12 @@ ul {
       color: #00659B; }
     .homepage_content .homepage_info .MainInfo .mini_carusel .r, .homepage_content .homepage_info .MainInfo .mini_carusel .l {
       padding: 0 5px; }
+    .homepage_content .homepage_info .MainInfo .mini_carusel .bot_descr {
+      text-align: center;
+      font-weight: bold;
+      font-stretch: condensed;
+      font-size: 20px;
+      margin-bottom: 15px; }
     .homepage_content .homepage_info .MainInfo .mini_carusel .mini_carusel_item {
       border: 1px solid #FF7000;
       padding-bottom: 15px;
@@ -275,7 +281,8 @@ ul {
       .homepage_content .homepage_info .MainInfo .bot_descr .bot_title {
         font-stretch: condensed;
         font-weight: bold;
-        font-size: 19px; }
+        font-size: 19px;
+        margin-top: 10px; }
       .homepage_content .homepage_info .MainInfo .bot_descr .stars {
         font-stretch: condensed;
         font-size: 16px;
@@ -519,11 +526,9 @@ ul {
     border: none; }
 
 .sidr {
-  font-size: 15px; }
-  .sidr .category_title {
-    text-align: center;
-    font-size: 18px;
-    font-weight: bold; }
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: condensed; }
   .sidr .button-close {
     display: inline-block;
     width: 20px;
@@ -546,7 +551,6 @@ ul {
       padding-left: 30px;
       line-height: 1.4;
       font-size: 13px;
-      background-color: #494949;
       color: #fff; }
     .sidr .mm-item .header-menu-item {
       text-transform: uppercase;
@@ -562,7 +566,7 @@ ul {
       border-top: 1px solid #5a5a5a;
       transition: all 0.3s ease; }
       .sidr .mm-item .header-menu-item:hover {
-        color: #00AC00; }
+        color: #fafafa; }
     .sidr .mm-item li {
       text-transform: lowercase; }
       .sidr .mm-item li span {
@@ -576,7 +580,7 @@ ul {
         padding-left: 40px;
         padding-top: 6px;
         padding-bottom: 6px;
-        color: #00AC00; }
+        color: #fafafa; }
       .sidr .mm-item li ol {
         background-color: whitesmoke; }
         .sidr .mm-item li ol li {
@@ -588,7 +592,7 @@ ul {
           .sidr .mm-item li ol li a {
             padding-top: 10px;
             padding-bottom: 10px;
-            color: #00AC00;
+            color: #fafafa;
             font-size: 14; }
 
 /*# sourceMappingURL=main.css.map */
