@@ -207,14 +207,18 @@ ul {
       font-stretch: condensed;
       text-align: center;
       text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7); }
+    .homepage_content .homepage_info .MainMenu .list-group .ng {
+      margin-right: 10%; }
+      .homepage_content .homepage_info .MainMenu .list-group .ng img {
+        margin-bottom: 3px; }
     .homepage_content .homepage_info .MainMenu .list-group .list-group-item {
       background-image: url("../img/sidebar-btn.png");
       background-size: cover;
       background-color: transparent;
       background-repeat: no-repeat;
       border: none;
+      margin-right: 10%;
       margin-bottom: 3px;
-      margin-right: 12px;
       padding: 6px 0px;
       border-radius: 10px; }
     .homepage_content .homepage_info .MainMenu .list-group .sub {
@@ -239,12 +243,6 @@ ul {
       color: #00659B; }
     .homepage_content .homepage_info .MainInfo .mini_carusel .r, .homepage_content .homepage_info .MainInfo .mini_carusel .l {
       padding: 0 5px; }
-    .homepage_content .homepage_info .MainInfo .mini_carusel .bot_descr {
-      text-align: center;
-      font-weight: bold;
-      font-stretch: condensed;
-      font-size: 20px;
-      margin-bottom: 15px; }
     .homepage_content .homepage_info .MainInfo .mini_carusel .mini_carusel_item {
       border: 1px solid #FF7000;
       padding-bottom: 15px;
@@ -259,7 +257,7 @@ ul {
           border: none;
           width: 8px;
           height: 8px; }
-      .homepage_content .homepage_info .MainInfo .mini_carusel .mini_carusel_item .carousel-inner {
+      .homepage_content .homepage_info .MainInfo .mini_carusel .mini_carusel_item .carousel-inner .item {
         height: 150px; }
         .homepage_content .homepage_info .MainInfo .mini_carusel .mini_carusel_item .carousel-inner .item img {
           height: 100%;
@@ -373,16 +371,8 @@ ul {
   .homepage_content .holidays .holidays_content .info {
     color: #FF7000;
     font-size: 15px; }
-.homepage_content .holidays .holidays_carusel .carousel .carousel-inner .item {
-  text-align: center; }
-  .homepage_content .holidays .holidays_carusel .carousel .carousel-inner .item .single_img {
-    display: inline-block;
-    width: 33%;
-    height: 250px;
-    border: 2px solid #C2009E; }
-    .homepage_content .holidays .holidays_carusel .carousel .carousel-inner .item .single_img img {
-      width: 100%;
-      height: 100%; }
+.homepage_content .holidays .holidays_carusel .carousel .carousel-inner .item .h_slide {
+  width: 100%; }
 .homepage_content .holidays .holidays_carusel .carousel .carousel-inner .carousel-control {
   opacity: 1;
   background-image: none; }
