@@ -248,7 +248,7 @@ ul {
       padding-bottom: 15px;
       margin: 10px 0; }
       .homepage_content .homepage_info .MainInfo .mini_carusel .mini_carusel_item .carousel-indicators {
-        bottom: -40%; }
+        bottom: -2px !important; }
         .homepage_content .homepage_info .MainInfo .mini_carusel .mini_carusel_item .carousel-indicators .active {
           width: 10px;
           height: 10px; }
@@ -257,11 +257,9 @@ ul {
           border: none;
           width: 8px;
           height: 8px; }
-      .homepage_content .homepage_info .MainInfo .mini_carusel .mini_carusel_item .carousel-inner .item {
-        height: 150px; }
-        .homepage_content .homepage_info .MainInfo .mini_carusel .mini_carusel_item .carousel-inner .item img {
-          height: 100%;
-          width: 100%; }
+      .homepage_content .homepage_info .MainInfo .mini_carusel .mini_carusel_item .carousel-inner .item img {
+        height: 100%;
+        width: 100%; }
       .homepage_content .homepage_info .MainInfo .mini_carusel .mini_carusel_item .carusel_descr {
         background-image: url("../img/mini-carus.png");
         background-position: center;

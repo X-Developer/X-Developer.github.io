@@ -62,6 +62,8 @@
     	float: none;
     	margin: 0 auto;
     	clear: both;}
+    .homepage_content .homepage_info .MainInfo .mini_carusel .r .mini_carusel_item .carousel-indicators{
+            bottom: -12px !important;}
     .homepage_content .holidays .holidays_type .type_ittem {
     	font-size: 12px;}
     .homepage_content .holidays .holidays_carusel .carousel .carousel-inner .item .single_img {
@@ -73,7 +75,6 @@
 		padding-top: 0px}
 	.homepage_footer .footer_item {
     	font-size: 18px;}
-
 }
 
 /* Small Devices, Tablets */
