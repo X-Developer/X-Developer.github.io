@@ -470,10 +470,10 @@ ul {
     .homepage_footer .footer_item p {
       margin-bottom: 0px; }
   .homepage_footer .address {
-    padding: 20px 0px 10px 60px;
+    padding: 20px 0px 10px 65px;
     background-position: 0 50%;
     background-repeat: no-repeat;
-    background-size: 50px 80px;
+    background-size: 55px 80px;
     background-image: url("../img/address_icon.png"); }
   .homepage_footer .center {
     text-align: center; }
